@@ -1,0 +1,269 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif; ;
+}
+
+
+:root{
+    --bg-color:#E3E3E3;
+    --second-bg-color: url('./image/pattern-bg.png');
+    --third-bg-color: #272727;
+    --text-color:#06294F;
+    --attention-color: red;
+    --btn-color:#FFE456;
+    --second-btn-color: #00A8A3;
+
+}
+
+.section-header{
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+   
+}
+
+.head-line h1{
+    font-size:5rem;
+    color: var(--text-color);
+    padding: 1.5rem;
+
+}
+.head-line h3{
+    font-size: 3.5rem;
+    color: var(--attention-color) ;
+    padding-bottom: 3.5rem;
+}
+
+.head-line img {
+    padding-bottom: 1.5rem;
+}
+
+.first-call h4{
+    font-size: 2.0rem;
+    padding-bottom: 2rem;
+}
+
+#btn-firstcall {
+    padding: 1.5rem 5.4rem;
+    font-size: 2rem;
+    color: var(--bg-color);
+    cursor: pointer;
+    text-decoration: none;
+    background: var(--second-btn-color);
+    font-weight: bold;
+    border:  1px solid var(--second-btn-color);
+    border-radius: 50px ;
+    text-transform: uppercase;
+
+  
+}
+
+#btn-firstcall:hover {
+    transition: .5s;
+    box-shadow: 0 0 20px 5px #00fffc;
+ }
+     
+
+.first-call h5{ 
+    padding: 2rem;
+    text-decoration: underline;
+    color: var(--attention-color);
+    font-size: 1.5rem;
+}
+
+
+.section-text{
+    background: var(--second-bg-color);
+    text-align: center;
+}
+
+.section-text h4{
+    font-size: 1.2rem;
+    color: var(--bg-color);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.section-text h2 {
+    font-size: 3rem;
+    color: var(--attention-color);
+    padding-bottom: 1.5rem ;
+    font-weight: 700;
+}
+
+.section-text h5{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: var(--bg-color);
+}
+
+.section-text p{
+    color: var(--bg-color); 
+    padding-bottom: 1.5rem ;   
+}
+
+.section-text h3 {
+    color: var(--attention-color);
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
+}
+
+.section-text h6 {
+    color: var(--bg-color);
+    font-weight: 600;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem ;
+}
+
+.section-text span{
+    color: var(--btn-color);
+    font-size: 2rem;
+    text-transform: lowercase !important;
+    
+}
+
+.section-footer {
+    background: var(--third-bg-color);
+    text-align: center;
+    
+}
+
+#btn-secondcall {
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background: var(--second-btn-color);
+    font-weight: bold;
+    border:  1px solid var(--second-btn-color);
+    border-radius: 50px ;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--bg-color);
+    
+}
+
+#btn-secondcall a{
+    padding: 1.8rem 6.5rem;
+    text-decoration: none;
+    color: var(--bg-color);
+    
+        
+}
+
+#btn-secondcall:hover {
+    transition: .5s;
+    box-shadow: 0 0 20px 5px #00fffc;
+ }
+
+ #footer p{ 
+    color: var(--bg-color);
+    padding-bottom: 1.5rem;
+    
+ }
+
+ #footer-link a{
+    text-decoration: none;
+    color: var(--bg-color);
+    padding-left: 1.5rem;
+    top: -.7rem;
+    position: relative;
+    
+
+ }
+     
+
+ @media (width <= 575px) {
+    .head-line h3{
+        font-size: 1.5rem !important;
+    }
+
+    .head-line h2 {
+        font-size: 2rem !important;
+    }
+
+    .head-line img {
+        width: 60%;
+    }
+
+    #btn-firstcall {
+        padding: 1.5rem 1rem !important;
+    }
+ 
+   #btn-secondcall a {
+    padding: 2rem 1.5rem !important;
+   }
+   
+ 
+ }
+ @media (width <= 992px) {
+    .head-line h3{
+        font-size: 1.8rem;
+    }
+
+    .head-line h2 {
+        font-size: 2.5rem;
+    }
+
+    .head-line img {
+        width: 60%;
+    }
+
+    #btn-firstcall {
+        padding: 1.5rem 4.5rem;
+    }
+ 
+    .first-call img {
+        width: 80%
+    }
+
+    .text h2{ 
+        font-size: 1.8rem;
+    }
+    .text h4 {
+        font-size: 1rem
+    }
+
+    .text p {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .section-text img{
+        width: 60%;
+    }
+
+   #btn-secondcall {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.5rem;
+    
+   }
+
+   #btn-secondcall a {
+    padding: 2rem 2.5rem;
+   }
+   
+   #footer p{
+        font-size: .9rem;
+   }
+
+   #footer-link a{
+    font-size: .8rem;
+    padding: .5rem;
+   }
+
+   #home{ 
+    display: none;
+   }
+
+ }
