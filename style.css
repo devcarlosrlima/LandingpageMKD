@@ -7,8 +7,8 @@
 
 
 :root{
-    --bg-color:#E3E3E3;
-    --second-bg-color: url('./image/pattern-bg.png');
+    --bg-color:#d8d8e6;
+    --second-bg-color: #1E2F5A;
     --third-bg-color: #272727;
     --text-color:#06294F;
     --attention-color: red;

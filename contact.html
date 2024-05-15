@@ -3,22 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FortBite - Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Contact</title>
 </head>
 <body>
+    <div class="title"><h1>Suport Contact</h1></div>
     <form action="">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
+        <div id="nameEmail">
+           <div id="name"> 
+                <label for="Name">Your Name:</label><br>
+                <input type="text"><br><br>
+
+            </div>
+            
+            <div>
+                <label for="Email">Your Email:</label><br>
+                <input type="Email"><br><br>
+            </div>
+        </div>
+
+        <div id="tel">
+            <label for="Tel">Tel:</label><br>
+            <input type="tel"><br><br>
+        </div>
+
+        <div id="Description">
+            <label for="Description">Description:</label><br>
+            <textarea type="text" placeholder="write here..."  rows="5" cols="25"></textarea><br><br>
+        </div>
     </form>
 </body>
 </html>

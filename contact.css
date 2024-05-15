@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+form{
+    background-color: #8FC8CF;
+    width: 100%;
+    height: 652px; 
+    display: grid;
+    justify-content: center;
+}
+
+form label{
+    font-size: 1.8rem;
+}
+
+.title{
+    background-color: #459187;
+    text-align: center;
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+
+#nameEmail{
+    display: flex;
+    padding-top: 4rem;
+   
+
+}
+
+#name{
+    margin-right: 50px;
+}
+
