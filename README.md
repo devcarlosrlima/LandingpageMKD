@@ -20,4 +20,4 @@ O projeto é composto pelos seguintes arquivos:
 - `styles.css`: O arquivo de estilos CSS para estilizar a página.
 
 
-[Site do Projeto](gluco6naturalhealth.com)
+[Site do Projeto](https://gluco6naturalhealth.com/)
